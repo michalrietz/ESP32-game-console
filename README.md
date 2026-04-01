@@ -3,6 +3,10 @@
 ## Cel
 Stworzenie przenośnej konsoli do gier retro opartej na mikrokontrolerze ESP32.
 
+## Środowisko programistyczne
+* Visual Studio Code z rozszerzeniem PlatformIO
+* Framework - Arduino
+
 ## Status
 - [x] Ustalenie połączeń wszystkich elementów
 - [ ] Oczekiwanie na dostawę reszty komponentów
