@@ -9,10 +9,11 @@ Stworzenie przenośnej konsoli do gier retro opartej na mikrokontrolerze ESP32.
 
 ## Status
 - [x] Ustalenie połączeń wszystkich elementów
-- [ ] Oczekiwanie na dostawę reszty komponentów
+- [ ] dostawa reszty brakujących komponentów
 - [ ] zrobienie prototypu na płytkach stykowych
 - [ ] Wgranie i konfiguracja emulatora
-- [ ] Projekt docelowej płytki PCB oraz obudowy do niej.
+- [ ] Prototyp działa
+- [ ] Start projektu docelowej płytki PCB oraz obudowy do niej.
 
 ## Lista zakupionych części
 * DOIT ESP32 DEVKIT V1
