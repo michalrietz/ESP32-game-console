@@ -1,50 +1,17 @@
 # ESP32 Game Console
+Cel:
+stworzenie przenośnej konsoli gier retro przy użyciu ESP32 oraz emulatora GNUBOY.
 
-## Cel
-Stworzenie przenośnej konsoli do gier retro opartej na mikrokontrolerze ESP32.
-
-## Środowisko programistyczne
-* Visual Studio Code z rozszerzeniem PlatformIO
-* Framework - Arduino
-
-## Status
-- [x] Ustalenie połączeń wszystkich elementów
-- [ ] dostawa reszty brakujących komponentów
-- [ ] zrobienie prototypu na płytkach stykowych
-- [ ] Wgranie i konfiguracja emulatora
-- [ ] Prototyp działa
-- [ ] Start projektu docelowej płytki PCB oraz obudowy do niej.
-
-## Lista zakupionych części
-* DOIT ESP32 DEVKIT V1
-* 2x Breadboard
-* Wzmacniacz dźwięku: MAX98357 I2S 3W Class D
-* Głośnik: 4 ohm 3W (Ultra-Thin Box Speaker)
-* Ekran: 2.8 inch TFT LCD SPI z czytnikiem MicroSD
-* Karta MicroSD 8GB
-* 4x małe przyciski (tact-switch)
-* Joystick KY-023
-
-## Pinout
-
-### Ekran i Karta SD
-* SCK -> GPIO 18
-* MOSI -> GPIO 23
-* MISO -> GPIO 19
-* TFT_CS -> GPIO 5
-* TFT_DC -> GPIO 21
-* TFT_RST -> GPIO 22
-* SD_CS -> GPIO 4
-
-### Dźwięk
-* LRC -> GPIO 25
-* BCLK -> GPIO 26
-* DIN -> GPIO 27
-
-### Sterowanie
-* Joystick VRx -> GPIO 34
-* Joystick VRy -> GPIO 35
-* Przycisk A -> GPIO 32
-* Przycisk B -> GPIO 33
-* Przycisk START -> GPIO 13
-* Przycisk SELECT -> GPIO 14
+Progres:
+[X] Zaplanowanie i zamówienie części
+[X] Test sterowania dla konsoli (przyciski oraz joystick)
+[] Dostawa brakujących elementów (ekran LCD z czytnikiem kart microSD, moduł wzmacniacza oraz głośnik do niego.)
+[] Sformatowanie karty microSD do systemu FAT32 oraz zgranie gier na gameboy i gameboy color.
+[] Stworzenie pierwszego prototypu konsoli na breadboardach
+[] Zaplanowanie własnej płytki PCB oraz obudowy do niej
+[] Realizacja płytki
+[] Zamówienie PCB i dostarczenie jej
+[] Lutowanie części oraz test
+[] Realizacja obudowy
+[] Wydrukowanie obudowy i złożenie
+[] Test + zrobienie instrukcji całej konsoli.
